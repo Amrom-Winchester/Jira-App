@@ -1,0 +1,8 @@
+
+loadTickets
+    on start( refresh / new tab / browser reopen ) of the app
+        - previously jo ticket hai unhe delete
+        - if color doge then us color ko load krega and no color the sbko load krega
+        - it will fetch all the tickets data
+        - create those tickets on ui
+        - after creating ui will also attach the required event listener
